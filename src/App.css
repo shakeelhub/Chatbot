@@ -1,38 +1,60 @@
-.App {
+.app{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bac{
+  background:url(https://theplanetd.com/images/Best-Views-in-New-York-City.jpg) center no-repeat ;
+  height: 100vh;
+ }
+
+.text{
+  margin-top: 90px;
+  padding-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ img{
+  background-color: black;
+ }
+
+.primary{
+  background-color: #007fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color:white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.chat-message{
+  background-color: #f2f2f2;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding:1em;
+  max-height: 450px;
+  overflow-y: auto;
+  border-radius: 25px;
+  color:gray;
 }
 
-.App-link {
-  color: #61dafb;
+.message-right{
+  background: #91fbff;
+  border-radius: 25px;
+  padding: .5em 1em !important;
+  margin:1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message-left{
+  background: aliceblue;
+  border-radius: 25px;
+  padding: .5em 1em !important;
+  margin:1em;
+}
+
+.message-text{
+  font-size: 19px;
+}
+
+.message-icon{
+  box-sizing: border-box;
+  font-size:40px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
